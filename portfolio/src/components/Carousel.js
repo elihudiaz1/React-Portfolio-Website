@@ -24,18 +24,10 @@ class Carousel extends React.Component {
     },
     {
      id: 1,
-     title: 'Project 2',
-     subTitle: 'Description 2',
+     title: 'Portfolio Website',
+     subTitle: 'The website you are currently on was made with the React Framework for the frontend, Node.js as the backend, and Express to support the handling of the SendGrid API for sending emails. Feel free to let me know what you think, just click on the Contact tab in the navigation bar!',
      imgSrc: car,
-     link: 'https://www.google.com/',
-     selected: false
-    },
-    {
-     id: 2,
-     title: 'Project 3',
-     subTitle: 'Description 3',
-     imgSrc: unicorn,
-     link: 'https://www.google.com/',
+     link: 'https://github.com/elihudiaz1/React-Portfolio-Website',
      selected: false
     },
    ]

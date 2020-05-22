@@ -269,7 +269,7 @@ strong {
   }
   .mobile-display-details {
     display: flex;
-    height: 200px;
+    height: 300px;
     width: 500px;
     margin-top: -50px;
     align-items: center;
@@ -277,6 +277,9 @@ strong {
     border-radius: 80px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
     background-color: #646F4B;
+  }
+  .e-card-info {
+    padding: 35px;
   }
 }
 

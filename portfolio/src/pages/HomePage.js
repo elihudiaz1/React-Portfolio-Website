@@ -26,11 +26,11 @@ class HomePage extends React.Component {
     <h2 id="text" className="rotator">
       Be 
       <div className="rotating-words">
-        <span className="rotator-word" style={{display: 'initial'}}> Bold</span>
+        <span className="rotator-word" style={{display: 'initial'}}> Determined</span>
         <span className="rotator-word"> Creative</span>
-        <span className="rotator-word"> Amazing</span>
+        <span className="rotator-word"> Focused</span>
         <span className="rotator-word"> Unique</span>
-        <span className="rotator-word"> Cool</span>
+        <span className="rotator-word"> Ambitious</span>
         <span className="rotator-word"> Awesome</span>
       </div>
    
