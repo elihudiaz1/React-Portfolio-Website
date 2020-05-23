@@ -7,8 +7,6 @@ const sendGrid = require('@sendgrid/mail');
 const port = process.env.PORT || 5000;
 
 
-console.log(process.env);
-
 sendGrid.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
 
 app.use(cors());
