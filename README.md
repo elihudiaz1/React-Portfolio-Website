@@ -1,5 +1,26 @@
+# React-Portfolio-Website
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Table of Contents
+
+* [Project Overview](#project-overview)
+* [Available Scripts](#available-scripts)
+  * [yarn start](#yarn-start)
+  * [yarn test](#yarn-test)
+  * [yarn run ios](#yarn-run-ios)
+  * [yarn run android](#yarn-run-android)
+  * [yarn run eject](#yarn-run-eject)
+* [Environment Variables](#environment-variables)
+  * [API Keys](#api-keys)
+* [Learn More](#learn-more)
+  
+  
+## Project Overview
+
+This website was built with a backend server that uses [Node.js](https://nodejs.org/en/about/) + [Express](https://expressjs.com/) for REST APIs and a front-end side that uses the [React Framework](https://reactjs.org/) with [React Router](https://reacttraining.com/react-router/) & [Axios](https://www.npmjs.com/package/axios). The 'Contact' page implements the [SendGrid](https://sendgrid.com/docs/) API for sending emails seamlessly to the host.
+
+The purpose of creating this was to organize some of my projects and showcase some of my skills. Feel free to use this as a starting point to customize your own unique portfolio.
+   
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,32 +58,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+## Environment Variables
+
+I have included an .env-sample file that should be renamed to .env and contain variables that you would like to remain secret, such as API keys. 
+
+### API Keys
+
+I used the .env file to store my SendGrid API so that I can then access it from anywhere in my application by calling 'process.env.REACT_APP_SENDGRID_API_KEY'. Simply replace 'YOUR_API_KEY_HERE' with your own SendGrid API key.
+
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
