@@ -72,10 +72,7 @@ const frameworks = [
         framework: "React",
         value: "75%",
     },
-    {
-        framework: ".NET",
-        value: "25%"
-    }
+
 ]
 
 

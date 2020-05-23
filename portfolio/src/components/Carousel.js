@@ -1,12 +1,9 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 
 import Card from '../components/Card';
 
-import teeth from '../assets/images/teeth.png';
-import car from '../assets/images/car.png';
-import unicorn from '../assets/images/unicorn.png';
+import parking from '../assets/images/parking-garage.jpg';
+import paper from '../assets/images/paper.jpg';
 
 
 class Carousel extends React.Component {
@@ -18,15 +15,15 @@ class Carousel extends React.Component {
      id: 0,
      title: 'University Parking',
      subTitle: 'A mobile application for students that keeps track of parking garages at their universities in order to help them decide where to park. \n\nThis project uses Google\'s Cloud Firestore service as the backend architecture along with the React Native Framework for the frontend user interface.',
-     imgSrc: teeth,
+     imgSrc: parking,
      link: 'https://github.com/elihudiaz1/react-parking',
      selected: false
     },
     {
      id: 1,
      title: 'Portfolio Website',
-     subTitle: 'The website you are currently on was made with the React Framework for the frontend, Node.js as the backend, and Express to support the handling of the SendGrid API for sending emails. Feel free to let me know what you think, just click on the Contact tab in the navigation bar!',
-     imgSrc: car,
+     subTitle: 'This website was built with a backend server that uses Node.js + Express for REST APIs and a front-end side that uses the React Framework with React Router & Axios. The \'Contact\' page implements the SendGrid API for sending emails seamlessly to the host. Feel free to let me know what you think, just click on the Contact tab in the navigation bar!',
+     imgSrc: paper,
      link: 'https://github.com/elihudiaz1/React-Portfolio-Website',
      selected: false
     },

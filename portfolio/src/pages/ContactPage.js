@@ -1,11 +1,6 @@
 import React from 'react';
-
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-
-import Block from '../components/Block';
-import Content from '../components/Content';
 import Axios from 'axios';
+
 
 class ContactPage extends React.Component {
  constructor(props) {
@@ -16,7 +11,6 @@ class ContactPage extends React.Component {
    message: '',
    disabled: false,
    emailSent: null,
-   data: null,
   }
  }
 
@@ -126,10 +120,7 @@ callBackendAPI = async () => {
     </form>
    </div> 
   )
-
  }
-
-
 }
 
 export default ContactPage;

@@ -1,8 +1,6 @@
 import React from 'react';
-import Block from '../components/Block';
-import Content from '../components/Content';
-import Container from 'react-bootstrap/Container';
 import * as data from '../Data/data';
+
 import profilepic from '../assets/images/profilepic.png';
 
 import PortfolioHeader from '../components/PortfolioHeader';
@@ -33,20 +31,7 @@ function AboutPage(props) {
    <section className="column-left">
 
     <PortfolioHeader title="About">
-     <p>neiugfihegoi4
-      oueougho4igh
-      iuge9ouhiuhouhouhiughugh9ugheoiu
-      hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-      hjioeeeeeeeeeeeeeeeeeeeeeeeeeeee
-      hefpiooooooooooooooooooooooooooooooooo
-      eihfoihhhhhhhhhhhhhhhhhhhhhhhhhhdfgh
-      giugbs
-      iuge9ouhiuhouhouhiughugh9ugheoiuouhoeuwho
-      owuehofuewh
-      ouhoih40igh
-      oih4iho34iht0oi ou4ith230o4h oub4o
-      ou4hoti24h oihoih ihoi4h3oi4h
-      oi4hofi3h4 oih4oi oi4hoith
+     <p>As a first-generation college graduate, I realize the value of collaboration, education, and discipline. My love for programming taught me that I require a career that challenges me daily, providing an opportunity to expand my knowledge and to problem solve within a team of like-minded individuals.
      </p>
     </PortfolioHeader>
     <PortfolioHeader title="Education">
@@ -76,23 +61,9 @@ function AboutPage(props) {
       data.frameworks.map((fw, i) => <SkillBar key={`ed-${i}`} name={fw.framework} value={fw.value} />)
      }
     </PortfolioHeader>
-
-
-
    </section>
 
   </div>
-
-
-
-
-  
-  // <div>
-  //  <Block title={props.title} />
-  //  <Content>
-  //   <p>This is a website all about ME</p>
-  //  </Content>
-  // </div>
  )
 }
 

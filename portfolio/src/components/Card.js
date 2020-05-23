@@ -26,9 +26,7 @@ function Card(props) {
     <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link}/>
    </div>
   </div>
- 
  )
-
 }
 
 export default Card;
